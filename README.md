@@ -23,7 +23,7 @@ For the rest of the frames:
 
 1. Compare this frame's energy with the computed threshold.
 2. Increment the number of silent frames or frames with voice.
-3. Reset the number of silent frames if < 5 frames with voice or vice versa.
+3. Reset the number of silent frames if > 5 frames with voice or vice versa.
 
 Return true if there have been > 10 frames of silence.
 
