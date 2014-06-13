@@ -4,6 +4,8 @@ The bulk of the work is in the VoiceActivityDetector class. It's job is to decid
 
 The AudioDevice and VoiceRecorder classes were just used to establish a frame for how the VoiceActivityDetector could be used.
 
+The FrameCounter class encapsulates the logic around maintaining counts of runs of silence/voice and discarding smaller runs.
+
 I use the term 'frame' to denote an array of numerical values representing a chunk of audio.
 
 NOTE: This code doesn't really do anything since its not interfacing with any actual device.
